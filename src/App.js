@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 // Use environment variable or default to the deployed backend URL
-const API_URL = process.env.REACT_APP_API_URL || 'https://your-backend-service.onrender.com';
+const API_URL = process.env.REACT_APP_API_URL || 'https://tumor-detection-rhy4.onrender.com';
 
 function App() {
   const [image, setImage] = useState(null);
